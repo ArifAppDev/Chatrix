@@ -1,6 +1,8 @@
 import 'package:chat_hive/core/theme/light_mode.dart';
 import 'package:chat_hive/firebase_options.dart';
 import 'package:chat_hive/presentation/screens/auth/auth_gate.dart';
+import 'package:chat_hive/presentation/screens/home/home_screen.dart';
+import 'package:chat_hive/presentation/settings_section/settings.dart';
 
 import 'package:firebase_core/firebase_core.dart';
 
@@ -21,6 +23,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: const AuthGate(),
       theme: lightMode,
+
+      routes: {
+        '/homescreen': (context) => HomeScreen(),
+        '/settingsscreen': (context) => SettingsScreen(),
+      },
     );
   }
 }
