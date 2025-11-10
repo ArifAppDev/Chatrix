@@ -1,5 +1,5 @@
 import 'package:chat_hive/core/custom_assets/custom_icons/custom_icons.dart';
-import 'package:chat_hive/presentation/screens/auth/auth_service.dart';
+import 'package:chat_hive/service/auth_service.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 

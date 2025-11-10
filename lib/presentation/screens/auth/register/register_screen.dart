@@ -1,5 +1,5 @@
 import 'package:chat_hive/core/custom_assets/custom_icons/custom_icons.dart';
-import 'package:chat_hive/presentation/screens/auth/auth_service.dart';
+import 'package:chat_hive/service/auth_service.dart';
 import 'package:chat_hive/presentation/widgets/my_button.dart';
 import 'package:chat_hive/presentation/widgets/my_text_formfield.dart';
 import 'package:chat_hive/utils/static_string/static_strings.dart';
