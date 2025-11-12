@@ -1,8 +1,8 @@
 import 'package:chat_hive/core/theme/theme_provider.dart';
 import 'package:chat_hive/firebase_options.dart';
+import 'package:chat_hive/presentation/screens/setting_section/settings.dart';
 import 'package:chat_hive/service/auth_gate.dart';
 import 'package:chat_hive/presentation/screens/home/home_screen.dart';
-import 'package:chat_hive/presentation/settings_section/settings.dart';
 
 import 'package:firebase_core/firebase_core.dart';
 
