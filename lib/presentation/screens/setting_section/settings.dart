@@ -28,7 +28,7 @@ class SettingsScreen extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Text("Dart Mode"),
+            Text("DarK Mode"),
             CupertinoSwitch(
               value: Provider.of<ThemeProvider>(
                 context,
